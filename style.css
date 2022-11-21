@@ -19,7 +19,7 @@
     justify-content: space-between;
 }
 p{
-    padding: 10px;
+    padding: 20px;
 }
 .sotto-contenitore{
     display: flex;
@@ -70,7 +70,7 @@ h1{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    /* position: relative; */
+    position: relative;
     flex-direction: row;
     text-align: left;
     margin-top: 50px;
@@ -78,11 +78,20 @@ h1{
 .arrow{
     font-size: 1.5em;
 }
+.suggerimenti{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
 .jumbo{
      overflow: auto;
-     /* position: absolute;
-     top: 15px;
-     right: 0; */
+     height: 250px;
+     position: absolute;
+     top: 100px;
+     right: 0;
 }
 .main-2{
     background-color:white;
@@ -112,12 +121,13 @@ h1{
 .tabella{
     border: 1px solid black;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     
 }
 .team{
     text-align: center;
     border: 1px solid black;
+    padding: 5px;
 }
 .super-contenitore2{
     display: flex;
@@ -129,10 +139,17 @@ h1{
 
 .partner{
     overflow: auto;
-    width: 400px;
+    
     height: 400px;
     
     
+}
+.contatti{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
 }
 .drop-business{
     width: 100%;
@@ -140,8 +157,8 @@ h1{
 }
 .business{
     overflow: auto;
-    width: 200px;
-    height: 100px;
+    
+    height: 200px;
 }
 .super-contenitore3{
     display: flex;
@@ -150,7 +167,7 @@ h1{
 }
 .sotto-container5{
     display: flex;
-    justify-content:flex-start;
+    justify-content:space-between;
     align-items: center;
     /* position: relative; */
     flex-direction: column;
@@ -166,23 +183,61 @@ h1{
 .link2{
     margin: 20px;
 }
-/* .super-contenitore4{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.arizona{
+    width: 130px;
+    height: 130px;
+    background-color: green;
+}
+.channel{
+    width: 130px;
+    height: 130px;
+    background-color: red;
+}
+.designit{
+    height: 130px;
+    width: 130px;
+    background-color: aqua;
+}
+.hearst{
+    height: 130px;
+    width: 130px;
+    background-color: beige;
+}
+.bicycle{
+    background-color: white;
+    display: inline-block;
+    height: 260px;
+}
+.university{
+    background-color: pink;
+    height: 130px;
+    width: 130px;
+}
+.planet{
+    background-color: aquamarine;
+    height: 130px;
+    width: 130px;
+}
+.topps{
+    background-color: aliceblue;
+    height: 130px;
+    width: 130px;
 }
 .quadrato{
     display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
-    overflow:initial;
-     */
+    justify-content: flex-start;
+    align-items: center;
 }
+
+
+
 .super-contenitore5{
     margin-top: 30px;
     margin-left: 70px;
 }
+/* .lorem:hover{
+
+} */
 .contenitore-finale{
     background-color: black;
     display: flex;
@@ -194,14 +249,11 @@ h1{
     color: white;
 }
 .lista-finale{
-    color: white;
+    color:lightgreen;
     list-style: none;
     
 }
 li{
     padding: 8px;
     text-indent: -5px;
-}
-.sotto-contenitore-finale{
-    
 }
