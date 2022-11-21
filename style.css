@@ -18,6 +18,9 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+p{
+    padding: 10px;
+}
 .sotto-contenitore{
     display: flex;
     justify-content: flex-start;
@@ -41,7 +44,7 @@ a:hover{
 }
 .bottone{
     background-color: white;
-    border: none;
+    border-color: lightgray;
     color: black;
 }
 .bottone-2{
@@ -67,7 +70,7 @@ h1{
     justify-content:space-between;
     align-items: center;
     /* position: relative; */
-    margin-top: 30px;
+    
     text-align: left;
     margin-top: 50px;
 }
@@ -80,10 +83,55 @@ h1{
      top: 15px;
      right: 0; */
 }
-section{
-    background-color: white;
+.main-2{
+    background-color:white;
 }
+
+
 .container-3{
     max-width: 800px;
     margin: 0 auto;
 }
+.fatturazione{
+    display: flex;
+    /* padding: 20px; */
+    
+}
+.super-contenitore{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.centro{
+    text-align: center;
+    padding-top: 2px;
+}
+.tabella{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.team{
+    text-align: center;
+    border: 1px solid black;
+}
+.super-contenitore2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+/* .super-contenitore3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px
+}
+.partner{
+    overflow: auto;
+    width: 200px;
+    height: 200px;
+} */
