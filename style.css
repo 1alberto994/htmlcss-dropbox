@@ -297,10 +297,11 @@ li{
     padding: 8px;
     text-indent: -5px;
 }
+.paragrafo:hover>.lorem{
+    display: block;
+
+}
 .lorem{
     display: none;
 }
-.lorem:hover{
-  display: block;
-  
-}
+
