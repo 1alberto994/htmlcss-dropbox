@@ -57,6 +57,10 @@ main{
     background-color: #b4d0e7;
    
 }
+.bg-section{
+    padding: 100px;
+    background-color: #b4d0e7;
+}
 .container-2{
     max-width: 1200px;
     margin: 0 auto;
@@ -113,6 +117,7 @@ h1{
 .container-3{
     max-width: 800px;
     margin: 0 auto;
+    padding: 50px;
 }
 .fatturazione{
     display: flex;
@@ -189,6 +194,7 @@ h1{
     text-align: left;
     margin-top: 50px;
     padding: 10px;
+    
 }
 .testo-centrale{
     margin: 30px;
@@ -274,6 +280,8 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color:#b4d0e7;
+    padding: 100px;
 }
 /* .lorem:hover{
 
@@ -296,6 +304,9 @@ h1{
 li{
     padding: 8px;
     text-indent: -5px;
+}
+.paragrafo{
+    padding: 20px;
 }
 .paragrafo:hover>.lorem{
     display: block;
