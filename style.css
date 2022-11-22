@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 .container{
-    /* position: fixed; 
-    z-index: 30px; */
     background-color: white;
     display: flex;
     width: 100%;
@@ -59,7 +57,7 @@ main{
     background-color: #b4d0e7;
    
 }
-.container-2 .super-contenitore4{
+.container-2{
     max-width: 1200px;
     margin: 0 auto;
     min-height: 300px;
@@ -155,7 +153,7 @@ h1{
 }
 .drop-business{
     margin: 50px;
-    text-align: left;
+    text-align: center;
 }
 .business{
     overflow: auto;
@@ -186,44 +184,55 @@ h1{
     margin: 20px;
 }
 .arizona{
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
     background-color: green;
+    padding: 60px;
+   
 }
 .channel{
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
     background-color: red;
+    padding: 60px;
 }
 .designit{
-    height: 130px;
-    width: 130px;
+    height: 200px;
+    width: 200px;
     background-color: aqua;
+    padding: 60px;
 }
 .hearst{
-    height: 130px;
-    width: 130px;
+    height: 200px;
+    width: 200px;
     background-color: beige;
+    padding: 60px;
 }
 .bicycle{
     background-color: white;
     /* display: inline-block; */
-    height: 260px;
+    height: 400px;
+    padding: 60px;
 }
 .university{
     background-color: pink;
-    height: 130px;
-    width: 130px;
+    height: 200px;
+    width: 200px;
+    padding: 60px;
+    overflow: auto;
 }
 .planet{
     background-color: aquamarine;
-    height: 130px;
-    width: 130px;
+    height: 200px;
+    width: 200px;
+    padding: 60px;
+
 }
 .topps{
     background-color: aliceblue;
-    height: 130px;
-    width: 130px;
+    height: 200px;
+    width: 200px;
+    padding: 60px;
 }
 .immagini{
     display: flex;
@@ -240,15 +249,16 @@ h1{
 .quadrato{
     display: flex;
     justify-content:center;
-    align-items: center;
-    
+    align-items: stretch;   
 }
 
 
 
 .super-contenitore5{
-    margin-top: 30px;
-    margin-left: 70px;
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /* .lorem:hover{
 
