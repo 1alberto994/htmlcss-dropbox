@@ -16,6 +16,8 @@
     display: flex;
     justify-content: space-between;
 }
+
+
 p{
     padding: 20px;
 }
@@ -36,6 +38,7 @@ p{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    border-bottom: 2px solid transparent;
 }
 .link:hover{
     border-bottom: 2px solid black;
@@ -65,14 +68,15 @@ main{
     max-width: 1200px;
     margin: 0 auto;
     min-height: 300px;
+   
 }
 h1{
     font-size: 2.5em;
 }
 .sotto-container0{
     display: flex;
-    justify-content:flex-start;
-    align-items: center;
+    justify-content:space-between;
+    align-items: flex-start;
     position: relative;
     flex-direction: row;
     
@@ -92,6 +96,8 @@ h1{
 }
 .arrow{
     font-size: 1.5em;
+    color: black;
+   
 }
 .suggerimenti{
     display: flex;
@@ -100,14 +106,24 @@ h1{
     text-align: center;
     align-items: center;
     padding: 100px;
+    
+   
+    
 }
+/* .div-jumbo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
 
 .jumbo{
      overflow: auto;
-     height: 250px;
+     height: 300px;
      position: absolute;
-     top: 300px;
+     top: 250px;
      right: 0;
+     
+     
 }
 .main-2{
     background-color:white;
@@ -121,8 +137,12 @@ h1{
 }
 .fatturazione{
     display: flex;
-    /* padding: 20px; */
     
+    
+}
+
+.fa-circle-dot{
+    color: aqua;
 }
 .super-contenitore{
     margin-top: 50px;
@@ -133,13 +153,16 @@ h1{
 }
 .centro{
     text-align: center;
-    padding-top: 2px;
+    /* padding-top: 2px; */
 }
 .tabella{
     border: 1px solid black;
-    margin: 10px;
-    padding: 20px;
+    margin: 5px;
     
+    
+}
+h3,h4{
+    text-indent: 15px;
 }
 .margin{
    margin-left: 15px;
@@ -148,6 +171,7 @@ h1{
     text-align: center;
     border: 1px solid black;
     padding: 5px;
+    margin-top: 10px;
 }
 .super-contenitore2{
     display: flex;
@@ -164,11 +188,13 @@ h1{
     
     
 }
+
 .contatti{
     display: flex;
     justify-content:space-between;
     align-items: center;
     flex-direction: column;
+    padding: 10px;
     
 }
 .drop-business{
@@ -255,6 +281,7 @@ h1{
     width: 200px;
     padding: 60px;
 }
+
 .immagini{
     display: flex;
     justify-content: flex-start;
@@ -272,6 +299,10 @@ h1{
     justify-content:center;
     align-items: stretch;   
 }
+.super-contenitore4{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 
@@ -283,9 +314,7 @@ h1{
     background-color:#b4d0e7;
     padding: 100px;
 }
-/* .lorem:hover{
 
-} */
 .contenitore-finale{
     background-color: black;
     display: flex;
@@ -303,7 +332,7 @@ h1{
 }
 li{
     padding: 8px;
-    text-indent: -5px;
+   
 }
 .paragrafo{
     padding: 20px;
@@ -314,5 +343,14 @@ li{
 }
 .lorem{
     display: none;
+}
+.utility{
+    color: grey;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    text-indent: 5px;
+}
+.utility:hover{
+    border-bottom: 2px solid white;
 }
 
