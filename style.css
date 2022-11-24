@@ -18,6 +18,7 @@
 }
 
 
+
 p{
     padding: 20px;
 }
@@ -58,6 +59,7 @@ p{
 main{
     padding: 100px;
     background-color: #b4d0e7;
+    position: relative;
    
 }
 .bg-section{
@@ -68,6 +70,7 @@ main{
     max-width: 1200px;
     margin: 0 auto;
     min-height: 300px;
+    
    
 }
 h1{
@@ -76,8 +79,8 @@ h1{
 .sotto-container0{
     display: flex;
     justify-content:space-between;
-    align-items: flex-start;
-    position: relative;
+    align-items: center;
+    
     flex-direction: row;
     
     
@@ -97,30 +100,30 @@ h1{
 .arrow{
     font-size: 1.5em;
     color: black;
+    position: absolute;
+    bottom: 0;
+    left: 400px;
    
 }
 .suggerimenti{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    text-align: center;
     align-items: center;
     padding: 100px;
     
    
     
 }
-/* .div-jumbo{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-} */
+.div-jumbo{
+    position: relative;
+}
 
 .jumbo{
      overflow: auto;
      height: 300px;
      position: absolute;
-     top: 250px;
+     top: 50px;
      right: 0;
      
      
